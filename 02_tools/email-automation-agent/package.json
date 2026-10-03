@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@langchain/core": "^1.2.14",
+    "@langchain/google": "^0.2.9",
+    "@langchain/mistralai": "^1.2.0",
+    "dotenv": "^18.0.5",
+    "langchain": "^1.5.15",
+    "nodemailer": "^10.0.13",
+    "zod": "^4.6.5"
+  },
+  "name": "email-automation-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
